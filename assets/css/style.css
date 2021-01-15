@@ -1,0 +1,168 @@
+html,
+body {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	margin: 0;
+}
+
+.row {
+	margin-bottom: 30px;
+}
+header {
+	border-bottom: 8px solid blue;
+    font-family: Karla;
+    background-image: url(header.jpg);
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+
+#forecast-container {
+	border: 1px solid blue;
+	padding: 20px;
+	line-height: 40px;
+}
+
+#name-div {
+	font-size: 25px;
+	font-weight: 500;
+	padding-right: 5px;
+	float: left;
+	color: #343a40;
+}
+
+#five-title {
+	font-size: 25px;
+	font-weight: 500;
+	color: red;
+}
+
+h5 .mt-1 {
+	color: red;
+}
+
+
+h1 {
+	text-align: center;
+	padding: 10px 10px 20px 10px;
+	color: white;
+	background-color: none;
+	text-shadow: -4px -4px 0 #000, 2px -4px 0 #000, -4px 4px 0 #000,
+		3px 3px 0 #000;
+	font-family: Karla;
+}
+
+.h1,
+h1 {
+    font-size: 4.5rem !important;
+    font-family: Karla;
+}
+
+.clear {
+	text-align: left;
+	padding-left: 0;
+}
+
+#clear-button {
+	margin-top: 10px;
+	background-color: #fff;
+	border: 1px solid darkblue;
+}
+
+#today {
+	background-color: #eaebeb;
+}
+
+.card-container {
+	display: inline-flex;
+	flex-direction: row !important;
+}
+
+.card {
+	display: inline-table;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	background-color: #999c9f !important;
+	border: 1px solid darkblue !important;
+}
+
+.card img {
+	max-width: 50px;
+}
+
+.card-body {
+	padding: 0 !important;
+}
+
+#main-content-container {
+	flex: 1 0 auto;
+}
+
+/* || FOOTER || */
+
+footer {
+	flex: 0 0 auto;
+	padding: 15px 0 25px;
+	/* Keeps Footer at the bottom of the page */
+	color: #fff;
+	/* Center footer content */
+	text-align: center;
+	background: #343a40;
+	border-top: 8px solid darkblue;
+	box-shadow: 0 5px 8px 5px #333;
+	width: 100%;
+	line-height: 5px;
+    text-size-adjust: 10px;
+    background-image: url(header.jpg);
+}
+
+footer a {
+	color: white;
+}
+
+footer a:visited {
+	color: lightgrey;
+}
+
+footer a:hover {
+	color: darkgrey;
+	text-decoration: none;
+}
+
+.contact {
+	/* button and text size */
+	margin-top: 7px;
+	font-variant: small-caps;
+}
+
+.btn-lg {
+	padding: 4.5px !important;
+	line-height: 1.5 !important;
+	font-size: 14px !important;
+}
+
+.copyright {
+	margin-top: 14px;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+	header,
+	.row {
+		width: 100% !important;
+	}
+	.card-container {
+		flex-direction: column !important;
+		width: 100%;
+	}
+	.btn-lg {
+		font-size: 10px !important;
+	}
+	.h1,
+	h1 {
+        font-family: Karla;
+		font-size: 3.5rem !important;
+	}
+}
