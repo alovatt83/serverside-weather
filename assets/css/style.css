@@ -3,14 +3,16 @@ body {
 	display: flex;
 	height: 100%;
 	flex-direction: column;
-	margin: 0;
+    margin: 0;
+    background-color: lightblue;
+    font-family: Tahoma;
 }
 
 .row {
 	margin-bottom: 30px;
 }
 header {
-	border-bottom: 8px solid blue;
+	border-bottom: 8px solid yellow;
     font-family: Karla;
     background-image: url(header.jpg);
     font-size: 48px;
@@ -21,7 +23,8 @@ header {
 #forecast-container {
 	border: 1px solid blue;
 	padding: 20px;
-	line-height: 40px;
+    line-height: 40px;
+    background-color: lightgrey;
 }
 
 #name-div {
@@ -35,11 +38,11 @@ header {
 #five-title {
 	font-size: 25px;
 	font-weight: 500;
-	color: red;
+	color: darkblue;
 }
 
 h5 .mt-1 {
-	color: red;
+	color: yellow;
 }
 
 
@@ -85,7 +88,7 @@ h1 {
 	margin: 10px;
 	color: white;
 	background-color: #999c9f !important;
-	border: 1px solid darkblue !important;
+	border: 1px solid yellow !important;
 }
 
 .card img {
@@ -110,7 +113,7 @@ footer {
 	/* Center footer content */
 	text-align: center;
 	background: #343a40;
-	border-top: 8px solid darkblue;
+	border-top: 8px solid yellow;
 	box-shadow: 0 5px 8px 5px #333;
 	width: 100%;
 	line-height: 5px;

@@ -46,7 +46,7 @@ $(document).ready(function () {
 	// &units=imperial is used in url for metric to imperial conversion
 	var metricUnits = "&units=metric";
 
-	var openWeatherMap = "&appid=ac762fe30e04abc584e95fe72ccef3d8";
+	var openWeatherMap = "&appid=38f55767a0c60100721a848c0be8deb5";
 
 
 
