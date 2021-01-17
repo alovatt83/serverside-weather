@@ -12,18 +12,19 @@ body {
 	margin-bottom: 30px;
 }
 header {
-	border-bottom: 8px solid yellow;
-    font-family: Karla;
+	border-bottom: 8px solid darkgrey;
     background-image: url(header.jpg);
-    font-size: 48px;
-    text-align: center;
+    font-size: 60px;
+    text-align: left;
     color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px #050505;
 }
 
 #forecast-container {
-	border: 1px solid blue;
-	padding: 20px;
-    line-height: 40px;
+	border: 5px solid yellow;
+	padding: 15px;
+    line-height: 30x;
     background-color: lightgrey;
 }
 
@@ -32,13 +33,15 @@ header {
 	font-weight: 500;
 	padding-right: 5px;
 	float: left;
-	color: #343a40;
+    color: #343a40;
+ 
 }
 
 #five-title {
 	font-size: 25px;
 	font-weight: 500;
-	color: darkblue;
+    color: darkblue;
+    
 }
 
 h5 .mt-1 {
@@ -48,18 +51,15 @@ h5 .mt-1 {
 
 h1 {
 	text-align: center;
-	padding: 10px 10px 20px 10px;
-	color: white;
-	background-color: none;
-	text-shadow: -4px -4px 0 #000, 2px -4px 0 #000, -4px 4px 0 #000,
-		3px 3px 0 #000;
-	font-family: Karla;
+	padding: 15px 20px 20px 15px;
+    color: white;
+    background-color: lightgrey;
 }
 
 .h1,
 h1 {
-    font-size: 4.5rem !important;
-    font-family: Karla;
+    font-size: 30px !important;
+  
 }
 
 .clear {
@@ -86,9 +86,9 @@ h1 {
 	display: inline-table;
 	padding: 10px;
 	margin: 10px;
-	color: white;
-	background-color: #999c9f !important;
-	border: 1px solid yellow !important;
+	color: black;
+	background-color: lightgrey !important;
+	border: 5px solid yellow !important;
 }
 
 .card img {
@@ -96,11 +96,13 @@ h1 {
 }
 
 .card-body {
-	padding: 0 !important;
+    padding: 0 !important;
+    background-color: lightgrey;
 }
 
 #main-content-container {
-	flex: 1 0 auto;
+    flex: 1 0 auto;
+    background-color: darkgrey;
 }
 
 /* || FOOTER || */
@@ -108,36 +110,16 @@ h1 {
 footer {
 	flex: 0 0 auto;
 	padding: 15px 0 25px;
-	/* Keeps Footer at the bottom of the page */
 	color: #fff;
-	/* Center footer content */
-	text-align: center;
 	background: #343a40;
-	border-top: 8px solid yellow;
+	border-top: 8px solid darkgrey;
 	box-shadow: 0 5px 8px 5px #333;
 	width: 100%;
-	line-height: 5px;
-    text-size-adjust: 10px;
     background-image: url(header.jpg);
 }
 
-footer a {
-	color: white;
-}
-
-footer a:visited {
-	color: lightgrey;
-}
-
-footer a:hover {
-	color: darkgrey;
-	text-decoration: none;
-}
-
-.contact {
-	/* button and text size */
-	margin-top: 7px;
-	font-variant: small-caps;
+.ul {
+    background-color: yellow;
 }
 
 .btn-lg {
@@ -148,7 +130,8 @@ footer a:hover {
 
 .copyright {
 	margin-top: 14px;
-	font-size: 12px;
+    font-size: 12px;
+    text-align: right;
 }
 
 @media screen and (max-width: 600px) {
