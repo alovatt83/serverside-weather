@@ -15,7 +15,7 @@
 Sixth weekly assignment due on Sunday January 17, 2021 @ 11:59 PM.
 
 ## Deployed link
-https://alovatt83.github.io/online-schedule/
+https://alovatt83.github.io/serverside-weather/
 
 ## Screenshot
 ![Homepage Screenshot](./assets/images/screenshot.png)
