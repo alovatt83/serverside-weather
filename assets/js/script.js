@@ -89,7 +89,7 @@ $(document).ready(function () {
 	var iconImg = $("<img>");
 		iconImg.attr(
 			"src",
-			"https://openweathermap.org/img/w/" + data.weather[0].icon + ".png",
+			"https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png",
 		);
 		liImg.append(iconImg);
 
@@ -195,11 +195,13 @@ $(document).ready(function () {
 	var fiveIconImg = $("<img>");
 			    fiveIconImg.attr(
 				"src",
-				"https://openweathermap.org/img/w/" +
+				"https://openweathermap.org/img/wn/" +
 				data.list[i].weather[0].icon +
-				".png",
+				"@2x.png",
 			);
-			fiveImg.append(fiveIconImg);
+            fiveImg.append(fiveIconImg);
+            
+           
 					
 
 					
